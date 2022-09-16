@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+.home-sec{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: #13122B;
+    /* transform: matrix(0.99, -0.1, 0.14, 0.99, 0, 0); */
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 104.12%;
+/* identical to box height, or 15px */
+
+letter-spacing: 0.465em;
+text-transform: uppercase;
+
+color: #80D1FF;
+}
+.heading h1{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 81px;
+color: #ffff;
+width: 673px;
+height: 81px;
+}
+
+
+.inner-box{
+    /* border: #f8f8f8 1px solid; */
+    display: flex;
+    margin-top: 10rem;
+    justify-content: space-around;
+}
+.text{
+    flex: 1.6;
+    /* border: #d60000 1px solid; */
+}
+.text-2{
+    flex: 1;
+    /* border: #e40707 1px solid; */
+    padding: 0 5rem;
+}
+
+.text h1 {
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 58px;
+
+/* or 138% */
+
+color: #E6E6E6;
+
+
+}
+
+.text h1 span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+line-height: 58px;
+/* identical to box height, or 138% */
+
+
+color: #FFC852;
+
+}
+
+.text-2 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    
+    /* or 200% */
+    letter-spacing: 0.01em;
+    
+    color: rgba(255, 255, 255, 0.7);
+    text-align: justify;
+    
+}
+
+.dis-btn{
+    width: 170px;
+    height: 58px;
+    background: #4E48B1;
+    border-radius: 47px;
+    border: none;
+}
+
+.least-inner-box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+
+.overlay{
+width: 90vw;
+height: 113px;
+/* display: none;   */
+position: relative;
+background: linear-gradient(180deg, #1D1B41 0%, rgba(25, 24, 58, 0.4) 130.62%);
+border-radius: 77px;
+top: 10.5rem;
+left: 3.5rem;
+opacity: 0.7;
+}
+/* 
+@keyframes scroll {
+    0%{
+        transform: translateX(calc(250*7));
+    }
+    100%{
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.slider .slide-track{
+    animation: scroll 10s linear infinite;
+    display: flex;
+    width: calc(250px * 7);
+} */
+
+/* .slide{
+
+width: 250px;
+height: 100px;
+
+
+
+
+background: #E8E8EB;
+border-radius: 43px;
+} */
+
+
+
+.slider{
+    padding: 5rem 3rem;
+}
+
+.item {
+    background: #E8E8EB;
+border-radius: 43px;
+    width: 206px;
+height: 66px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 1rem;
+}
+
+.item span{
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.01em;
+
+color: #000000;
+}
+
+.item p{
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+
+/* Primary/2 */
+
+color: #4E48B1;
+
+}
+
+/* .react-multi-carousel-item{
+    max-width: 230px;
+    min-width:230px;
+} */
+
+.img-ellipse1{
+    position: relative;
+    right: 10rem;
+    top: -3rem;
+}
+.img-ellipse2{
+    position: relative;
+    left: 9rem;
+    top: -3rem;
+}
+.img-ellipse3{
+    position: relative;
+    left: 26rem;
+    top: 20.5rem;
+}
+.img-ellipse4{
+    position: relative;
+    right: 36rem;
+    top: 28.5rem;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 991px){
+    .overlay{
+        width: 85vw;
+        height: 113px;
+        /* display: none;   */
+        position: relative;
+        background: linear-gradient(180deg, #1D1B41 0%, rgba(25, 24, 58, 0.4) 130.62%);
+        border-radius: 77px;
+        top: 10.5rem;
+        left: 3.5rem;
+        opacity: 0.7;
+        }
+}
+@media only screen and (max-width: 800px){
+    .overlay{
+        width: 74vw;
+        height: 113px;
+        /* display: none;   */
+        position: relative;
+        background: linear-gradient(180deg, #1D1B41 0%, rgba(25, 24, 58, 0.4) 130.62%);
+        border-radius: 77px;
+        top: 10.5rem;
+        left: 3.5rem;
+        opacity: 0.7;
+        }
+}
+@media only screen and (max-width: 600px){
+    .overlay{
+        width: 80vw;
+        height: 113px;
+        /* display: none;   */
+        position: relative;
+        background: linear-gradient(180deg, #1D1B41 0%, rgba(25, 24, 58, 0.4) 130.62%);
+        border-radius: 77px;
+        top: 10.5rem;
+        left: 3.5rem;
+        opacity: 0.7;
+        }
+        .inner-box{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text h1{
+            text-align: left;
+            font-size: 30px;
+        }
+
+        .text h1 span{
+            font-size: 30px;
+        }
+}
+@media only screen and (max-width: 490px){
+    .overlay{
+        width: 99vw;
+        height: 113px;
+        /* display: none;   */
+        position: relative;
+        background: linear-gradient(180deg, #1D1B41 0%, rgba(25, 24, 58, 0.4) 130.62%);
+        border-radius: 77px;
+        top: 10.5rem;
+        left: 0.2rem;
+        opacity: 0.7;
+        }
+        .inner-box{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text h1{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .text h1 span{
+            font-size: 30px;
+        }
+        .text-2 p{
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 32px;
+            text-align: left;
+            
+            /* or 200% */
+            letter-spacing: 0.01em;
+            
+            color: rgba(255, 255, 255, 0.7);
+            
+        }
+        .ellipse{
+            display: none;
+        }
+}

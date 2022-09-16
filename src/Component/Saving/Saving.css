@@ -1,0 +1,1346 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+.saving-sec {
+  background: #13122b;
+  padding: 4rem 3rem 15rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.saving-sec .heading{
+    margin:30px 0 159px 0;
+}
+.upper-div {
+  display: flex;
+  margin-right:5rem;
+}
+
+.upper-l {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.upper-l span {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 58px;
+  /* or 138% */
+
+  color: #ffffff;
+  /* text-align: left; */
+}
+
+.upper-l, p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+
+  letter-spacing: 0.01em;
+
+  /* secondary/grey scale/5 */
+
+  color: #9496a0;
+  text-align: left;
+}
+
+.upper-r{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.inner-upper{
+    display: flex;
+}
+.spend{
+    position: relative;
+    bottom: 4rem;
+}
+.spend span{
+    position: relative;
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+left: 3.5rem;
+top: 3rem;
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+
+.spend img{
+    position: relative;
+    z-index: 1;
+}
+.transaction-text {
+    position: relative;
+    top: 1rem;
+    left: 5.4rem;
+    display: flex;
+    flex-direction: column;
+    width: 7rem;    
+}
+
+.transaction-text> div{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+text-align: justify;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+.transaction-status{
+    background: url("../../images/Rectangle.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+    top: 6rem;
+    right: 8rem;
+}
+
+.transaction-succes span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 10.4737px;
+line-height: 104.12%;
+/* identical to box height, or 11px */
+
+text-transform: capitalize;
+
+color: #000000;
+text-align: left;
+
+}
+
+
+
+.avatar{
+   
+    width: 32px;
+height: 32px;
+}
+
+.transaction-succes{
+    display: flex;
+    flex-direction: column;
+    
+}
+.transaction-succes p{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 7.85529px;
+line-height: 104.12%;
+/* or 8px */
+
+text-transform: lowercase;
+
+/* Grey Scale light/1 */
+
+color: #ADAEB6;
+text-align: left;
+
+}
+
+.wallet{
+    background: url("../../images/wallet.png");
+    width: 241px;
+height: 168px;
+position: relative;
+left: 20rem;
+top: -1.5rem;
+}
+
+.wallet span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+position: relative;
+left: 5.5rem;
+}
+
+.lin3{
+    background: url("../../images/line3.png");
+    /* border: 1px dashed transparent; */
+     width: 298px;
+height: 206.95px; 
+position: relative;
+top: -18rem;
+left: 9rem;
+}
+
+.lower-div{
+    display: flex;
+    flex-direction: column;
+    /* border: #FFFFFF 2px solid; */
+}
+
+.lower-inner-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px red dotted; */
+}
+
+.lower-inner-second span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 66px;
+/* or 118% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.lower-inner-second p{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 32px;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.01em;
+width: 464px;
+height: 256px;
+}
+
+.bus{
+    position: relative;
+    top: -60px;
+    right: -4rem;
+}
+
+.laptop{
+    position: relative;
+    right: 14rem;
+    top: 16rem;
+}
+
+.card-pay{
+    position: relative;
+    top: 34rem;
+    right: 18rem;
+}
+
+.books{
+    position: relative;
+    top: -130px;
+    left: 8rem;
+}
+
+.mobile{
+    position: relative;
+    left: 13rem;
+    top: 4.6rem;
+}
+
+.hello{
+    position: relative;
+    top: 26rem;
+    left: 4rem;
+}
+
+@media only screen and (max-width: 991px){
+    .bus{
+        position: relative;
+        top: 8rem;
+        right: -4rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 14rem;
+        top: 26rem;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 40rem;
+        right: 9rem;
+    }
+    
+    .books{
+        position: relative;
+        top: 4rem;
+        left: 6rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 4rem;
+        top: 20rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 25rem;
+        left: 20rem;
+    }
+
+.lower-inner-second span{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 66px;
+/* or 118% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.lower-inner-second p{
+    font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 32px;
+/* or 200% */
+
+text-align: center;
+letter-spacing: 0.01em;
+width: 464px;
+height: 256px;
+}
+    
+}
+/* @media only screen and (max-width: 864px){
+    .saving-sec {
+        background: #13122b;
+        padding: 10rem 0rem 15rem 0rem;
+        display: flex;
+        flex-direction: column;
+      }
+    .bus{
+        position: relative;
+        top: 11rem;
+        left: 2rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 12rem;
+        top: 26rem;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 43rem;
+        right: 14rem;
+    }
+    
+    .books{
+        position: relative;
+        top: 10rem;
+        left: 4rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 1rem;
+        top: 24rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 30rem;
+        left: 12rem;
+    }
+    
+}
+@media only screen and (max-width: 774px){
+    .saving-sec {
+        background: #13122b;
+        padding: 10rem 0rem 15rem 0rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 15px;
+ 
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 464px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 11rem;
+        left: 5rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 10rem;
+        top: 26rem;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 39rem;
+        right: 10rem;
+    }
+    
+    .books{
+        position: relative;
+        top: 10rem;
+        left: 2rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: -3rem;
+        top: 28rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 30rem;
+        left:8rem;
+    }
+    
+} */
+@media only screen and (max-width: 864px){
+    .saving-sec {
+        background: #13122b;
+        /* padding: 10rem 0rem 15rem 0rem; */
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    /* or 118% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 464px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 0rem;
+        left: 5rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 8rem;
+        top: 12rem;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 20rem;
+        right: 5rem;
+    }
+    
+    .books{
+        position: relative;
+        top: -2rem;
+        left: 2rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 6rem;
+        top: 8rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 19rem;
+        left: -8rem;
+    }
+    .lower-inner-first img{
+        width: 7rem;
+        height: 7rem;
+    }
+    .upper-div{
+        display: flex;
+        flex-direction: column;
+        gap: 7rem;
+        align-items: center;
+        margin-right: 8rem;
+        
+    }
+}
+@media only screen and (max-width: 700px){
+    .saving-sec {
+        background: #13122b;
+        /* padding: 10rem 0rem 15rem 0rem; */
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    /* or 118% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+
+    .heading h1{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 81px;
+    color: #ffff;
+    width: 673px;
+    height: 81px;
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 464px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 0rem;
+        left: 5rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 8.5rem;
+        top: 8rem;
+        width: 4rem !important;
+        height: 4rem !important;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 14rem;
+        right: 7rem;
+    }
+    
+    .books{
+        position: relative;
+        top: -2rem;
+        left: 2rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 8.3rem;
+        top: 7rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 14rem;
+        left: -3rem;
+    }
+    .lower-inner-first img{
+        width: 5rem;
+        height: 5rem;
+    }
+}
+@media only screen and (max-width: 580px){
+    .saving-sec {
+        background: #13122b;
+        /* padding: 10rem 0rem 15rem 0rem; */
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 118% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+
+    .heading h1{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 81px;
+    color: #ffff;
+    width: 673px;
+    height: 81px;
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    width: 264px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 4rem;
+        left: -1rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 4.8rem;
+        top: 12rem;
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 15.5rem;
+        right: -2rem;
+    }
+    
+    .books{
+        position: relative;
+        top: -1rem;
+        left: -2.5rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 3.3rem;
+        top: 4.2rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 14rem;
+        left: 1rem;
+    }
+    .lower-inner-first img{
+        width: 3rem;
+        height: 3rem;
+    }
+    .upper-div{
+        margin-right: 3rem;
+    }
+
+    .upper-r{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-upper{
+        display: flex;
+        
+    }
+    .spend{
+        position: relative;
+        bottom: 5rem;
+    }
+    .spend span{
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    left: 3.5rem;
+    top: 3rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .spend img{
+        position: relative;
+        z-index: 1;
+        width: 8rem;
+    }
+    .transaction-text {
+        position: relative;
+        top: -2.5rem;
+        left: 5.4rem;
+        display: flex;
+        flex-direction: column;
+        width: 7rem;    
+    }
+    
+    .transaction-text> div{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    .transaction-status{
+        background: url("../../images/Rectangle.png");
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 1rem;
+        position: relative;
+        top: 3rem;
+        right: 4rem;;
+        
+    }
+    
+    .transaction-succes span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.4737px;
+    line-height: 104.12%;
+    /* identical to box height, or 11px */
+    
+    text-transform: capitalize;
+    
+    color: #000000;
+    text-align: left;
+    
+    }
+    
+    
+    
+    .avatar{
+       
+        width: 32px;
+    height: 32px;
+    }
+    
+    .transaction-succes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .transaction-succes p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.85529px;
+    line-height: 104.12%;
+    /* or 8px */
+    
+    text-transform: lowercase;
+    
+    /* Grey Scale light/1 */
+    
+    color: #ADAEB6;
+    text-align: left;
+    
+    }
+    
+    .wallet{
+        background: url("../../images/wallet.png");
+        width: 221px;
+    height: 148px;
+    position: relative;
+    left: 11rem;
+    top: -1rem;
+    z-index: 1;
+    }
+    
+    .wallet span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    position: relative;
+    left: 5.5rem;
+    }
+    .lin3{
+        background: url("../../images/line3.png");
+        /* border: 1px dashed transparent; */
+         width: 298px;
+    height: 206.95px; 
+    position: relative;
+    top: -17.4rem;
+    left: 1.4rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .upper-div{
+        margin-right: 2.5rem;
+    }
+
+    .upper-r{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-upper{
+        display: flex;
+        
+    }
+    .spend{
+        position: relative;
+        bottom: 8rem;
+    }
+    .spend span{
+        position: relative;
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    left: 2.5rem;
+    top: 1rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .spend img{
+        position: relative;
+        z-index: 1;
+        width: 5rem;
+    }
+    .transaction-text {
+        position: relative;
+        top: -5.5rem;
+        left: 5.4rem;
+        display: flex;
+        flex-direction: column;
+        width: 7rem;    
+    }
+    
+    .transaction-text> div{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: justify;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    .transaction-status{
+        background: url("../../images/Rectangle.png");
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 1rem;
+        position: relative;
+        top: -2rem;
+        right: 3rem;;
+        
+    }
+    
+    .transaction-succes span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.4737px;
+    line-height: 104.12%;
+    /* identical to box height, or 11px */
+    
+    text-transform: capitalize;
+    
+    color: #000000;
+    text-align: left;
+    
+    }
+    
+    
+    
+    .avatar{
+       
+        width: 32px;
+    height: 32px;
+    }
+    
+    .transaction-succes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .transaction-succes p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.85529px;
+    line-height: 104.12%;
+    /* or 8px */
+    
+    text-transform: lowercase;
+    
+    /* Grey Scale light/1 */
+    
+    color: #ADAEB6;
+    text-align: left;
+    
+    }
+    
+    .wallet{
+        background: url("../../images/wallet.png");
+        width: 151px;
+    height: 118px;
+    position: relative;
+    left: 9.3rem;
+    top: -3rem;
+    z-index: 1;
+    }
+    
+    .wallet span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    position: relative;
+    left: 5.5rem;
+    }
+    .lin3{
+        background: url("../../images/line3.png");
+        /* border: 1px dashed transparent; */
+         width: 250px;
+    height: 206.95px; 
+    position: relative;
+    top: -17.4rem;
+    left: 1.4rem;
+    }
+}
+@media screen and (max-width: 330px) {
+    .upper-div{
+        margin-right: 2.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .upper-r{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .inner-upper{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;        
+    }
+    .spend{
+        position: static;
+        bottom: 8rem;
+    }
+    .spend span{
+        position: static;
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    left: 2.5rem;
+    top: 1rem;
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    
+    .spend img{
+        position: static;
+        z-index: 1;
+        width: 5rem;
+    }
+    .transaction-text {
+        position: static;
+        top: -5.5rem;
+        left: 5.4rem;
+        display: flex;
+        flex-direction: column;
+        width: 7rem;    
+    }
+    
+    .transaction-text> div{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 22px;
+    text-align: justify;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    
+    }
+    .transaction-status{
+        background: url("../../images/Rectangle.png");
+        background-repeat: no-repeat;
+        display: flex;
+        padding: 0 1rem;
+        position: static;
+        top: -2rem;
+        right: 3rem;;
+        
+    }
+    
+    .transaction-succes span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.4737px;
+    line-height: 104.12%;
+    /* identical to box height, or 11px */
+    
+    text-transform: capitalize;
+    
+    color: #000000;
+    text-align: left;
+    
+    }
+    
+    
+    
+    .avatar{
+       
+        width: 32px;
+    height: 32px;
+    }
+    
+    .transaction-succes{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .transaction-succes p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7.85529px;
+    line-height: 104.12%;
+    /* or 8px */
+    
+    text-transform: lowercase;
+    
+    /* Grey Scale light/1 */
+    
+    color: #ADAEB6;
+    text-align: left;
+    
+    }
+    
+    .wallet{
+        background: url("../../images/wallet.png");
+        width: 151px;
+    height: 118px;
+    position: static;
+    z-index: 1;
+    }
+    
+    .wallet span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* or 200% */
+    
+    text-align: center;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    position: static;
+    left: 5.5rem;
+    }
+    .lin3{
+       display: none;
+    }
+}
+@media only screen and (max-width: 377px){
+    .saving-sec {
+        background: #13122b;
+        /* padding: 10rem 0rem 15rem 0rem; */
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 118% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    .heading h1{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 81px;
+    color: #ffff;
+    width: 673px;
+    height: 81px;
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 200% */
+    
+    text-align: justify;
+    letter-spacing: 0.01em;
+    width: 234px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 7rem;
+        left: -1rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 3.8rem;
+        top: 18rem;
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 20.5rem;
+        right: 1rem;
+    }
+    
+    .books{
+        position: relative;
+        top: 2rem;
+        left: -3rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 1.3rem;
+        top: 6.2rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 16rem;
+        left: 6rem;
+    }
+    .lower-inner-first img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
+@media only screen and (max-width: 327px){
+    .saving-sec {
+        background: #13122b;
+        /* padding: 10rem 0rem 15rem 0rem; */
+        display: flex;
+        flex-direction: column;
+      }
+      .lower-inner-second span{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    /* or 118% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    }
+    
+    .lower-inner-second p{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 200% */
+    
+    text-align: justify;
+    letter-spacing: 0.01em;
+    width: 214px;
+    height: 256px;
+    }
+    .bus{
+        position: relative;
+        top: 7rem;
+        left: -2rem;
+    }
+    
+    .laptop{
+        position: relative;
+        right: 3.8rem;
+        top: 20rem;
+        width: 2.4rem !important;
+        height: 2.4rem !important;
+    }
+    
+    .card-pay{
+        position: relative;
+        top: 20.5rem;
+        right: 1rem;
+    }
+    
+    .books{
+        position: relative;
+        top: 2rem;
+        left: -5rem;
+    }
+    
+    .mobile{
+        position: relative;
+        left: 8.3rem;
+        top: 4.2rem;
+    }
+    
+    .hello{
+        position: relative;
+        top: 16rem;
+        left: 4rem;
+    }
+    .lower-inner-first img{
+        width: 3rem;
+        height: 3rem;
+    }
+
+}
+@media only screen and (max-width: 279px){
+    .lower-inner-first{
+        display: none;
+    }
+
+}
