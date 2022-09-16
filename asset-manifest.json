@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/paynav/static/css/main.00f3791a.css",
+    "main.js": "/paynav/static/js/main.a351336a.js",
+    "static/js/787.316dfaad.chunk.js": "/paynav/static/js/787.316dfaad.chunk.js",
+    "static/media/image1.png": "/paynav/static/media/image1.f543406d694727acad14.png",
+    "static/media/image3.png": "/paynav/static/media/image3.03499d577dba51502637.png",
+    "static/media/image2.png": "/paynav/static/media/image2.5942f7c6dac5502396e2.png",
+    "static/media/swiping.png": "/paynav/static/media/swiping.0b728a13d6c338e0b6ae.png",
+    "static/media/bus.png": "/paynav/static/media/bus.472a122b16dbbdb19b5e.png",
+    "static/media/mobile.png": "/paynav/static/media/mobile.5f4838a40541a740c3fd.png",
+    "static/media/hello.png": "/paynav/static/media/hello.7df2949a064f4ea9f74a.png",
+    "static/media/wallet.png": "/paynav/static/media/wallet.7b11dc74d0af94fbf73d.png",
+    "static/media/laptop.png": "/paynav/static/media/laptop.6ff4e1010780c75d3b16.png",
+    "static/media/revicons.eot": "/paynav/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/paynav/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/books.png": "/paynav/static/media/books.bc2198d31b148c473b08.png",
+    "static/media/card.png": "/paynav/static/media/card.303ab4cc1a57f773315e.png",
+    "static/media/revicons.woff": "/paynav/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/paynav/index.html",
+    "main.00f3791a.css.map": "/paynav/static/css/main.00f3791a.css.map",
+    "main.a351336a.js.map": "/paynav/static/js/main.a351336a.js.map",
+    "787.316dfaad.chunk.js.map": "/paynav/static/js/787.316dfaad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00f3791a.css",
+    "static/js/main.a351336a.js"
+  ]
+}
